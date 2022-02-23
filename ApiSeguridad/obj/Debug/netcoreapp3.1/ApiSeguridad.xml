@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiSeguridad</name>
+    </assembly>
+    <members>
+        <member name="M:ApiSeguridad._3._0_._UI.AuthController.login(ApiSeguridad._2._0_._Entities.Auth.Inputs.Credentials)">
+            <summary>
+            Validate user credentials
+            </summary>
+            <response code="404">If user not found</response>
+            <response code="500">If there is a server error</response>
+        </member>
+        <member name="M:ApiSeguridad._3._0_._UI.EnviromentController.getEnviroments(System.Int32)">
+            <summary>
+            Get all environments of a program
+            </summary>
+        </member>
+        <member name="M:ApiSeguridad._3._0_._UI.EnviromentController.selectEnviroment(ApiSeguridad._0._0_._Entities.Enviroment.Inputs.InputSelectAmbiente)">
+            <summary>
+            Get string connection of a enviroment
+            </summary>
+        </member>
+        <member name="M:ApiSeguridad._3._0_._UI.RsaController.generateKey">
+            <summary>
+            Generate public key and private key
+            </summary>
+        </member>
+    </members>
+</doc>
